@@ -9,6 +9,6 @@ a02 - Descriptions and explanations soon!
 
 a03 - Descriptions and explanations soon!
 
-a04 - Descriptions and explanations soon! - Descriptions and explanations soon! Using arrays to locate table elements, reading arrays with explicit and computed indices. Pair programming. Part 1 uses sound editing and basic effects, part 2 adds a little creativity.
+a04 - Descriptions and explanations soon!
 
 a05 - Descriptions and explanations soon!
