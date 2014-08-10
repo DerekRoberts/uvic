@@ -1,0 +1,53 @@
+<html><body>
+
+codeAct is a fill-in-the-blanks game which tests your knowledge
+of programming.
+<p>
+In the game, you are given a sequence of tasks.
+Each task displays a game board with three rectangular cells:
+<ol>
+<li>
+<i>code cell</i>: a program in a programming language,
+<li>
+<i>argv cell</i>: text available as command line arguments,
+<li>
+<i>stdin cell</i>: text available as standard input, and
+<li>
+<i>stdout cell</i>: text written as standard input.
+</ol>
+Each cell contains some fixed text and some text fields.
+Your job is to fill in the text fields.
+<p>
+There are four task types, each with slightly different game rules:
+<ol>
+<li>
+<a href="../ca_controller/quiz.html?quiz_spec=../quiz_specs/min_io_alone">Input-output</a>:
+When you press the <i>check answer</i> button, the code is executed.
+The actual output of the execution is saved.
+Your answer is correct if the actual output is the same as
+the contents of the stdout cell.
+<li>
+<a href="../ca_controller/quiz.html?quiz_spec=../quiz_specs/min_be_alone">Bullseye</a>:
+In this task, the code cell contains one or more
+<font color="blue"><b>highlighted</b></font> lines.
+When you press the <i>check answer</i> button, the code is executed.
+Your answer is correct if each of the highlighted lines
+was executed at least once.
+<li>
+<a href="../ca_controller/quiz.html?quiz_spec=../quiz_specs/min_ll_alone">Liar-liar</a>:
+In this task, the code cell contains one or more
+<font color="blue"><b>assert</b></font> lines.
+When you press the <i>check answer</i> button, the code is executed.
+Your answer is correct if each of the assertions
+was false during execution.
+<li>
+<a href="../ca_controller/quiz.html?quiz_spec=../quiz_specs/min_ff_alone">Find-the-failure</a>:
+In this task, the code cell contains a specification and an implementation
+of a function, and an invocation of that function.
+When you press the <i>check answer</i> button, the code is executed.
+Your answer is correct if the return value of the function
+is incorrect, with respect to the specification
+</ol>
+
+<body>
+<html>

@@ -1,0 +1,49 @@
+<HTML>
+<HEAD><TITLE>Start quiz message exchange diagram</TITLE></HEAD>
+<BODY>
+
+<H1>Start quiz message exchange diagram</H1>
+<IMG SRC="start_quiz.png"/>
+<DL>
+<DT>HTTP request<DD>
+<CODE>
+http://cdoku.seng.uvic.ca:8080/codeAct/ca_controller/quiz.html?quiz_spec=../quiz_specs/min_io_alone
+</CODE>
+<BR>
+Because the URL does <i>not</i> reference the
+<code>static/</code> directory, a dynamic HTML page is requested.
+<BR>
+The URL parameter, <code>quiz_spec=../quiz_specs/min_io_alone</code>,
+is available in the Python global variable <code>request</code>.
+Specifically, <code>requests['quiz_spec']</code> has value
+<code>'../quiz_specs/min_io_alone</code>'.
+
+<DT><CODE>quiz()</CODE><DD>
+invoke function <CODE>quiz()</CODE> in 
+<CODE>codeAct/controllers/ca_controller.py</CODE>
+
+<DT>quiz constructor<DD>
+invoke the constructor of class <code>quiz</code> in 
+<CODE>ca_quiz.py</CODE>
+
+<DT>question constructor<DD>
+invoke the constructor of class <code>question</code> in  
+<CODE>ca_question.py</CODE>
+
+<DT><CODE>generate_html()</CODE><DD>
+invoke function <CODE>generate_html()</CODE> in
+<CODE>views/ca_controller/ca_question_html.py</CODE>
+
+<DT>question HTML code<DD>
+question presentation in HTML is returned by function
+<CODE>generate_html()</CODE>
+
+<DT>page HTML code<DD>
+HTML code of the page is return by function <CODE>quiz()</CODE>
+
+<DT>HTTP response<DD>
+web2py server sends the generated HTML as an HTTP response to the client
+</DL>
+
+</BODY>
+<HTML>

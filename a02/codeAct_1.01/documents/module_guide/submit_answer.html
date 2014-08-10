@@ -1,0 +1,35 @@
+<HTML>
+<HEAD><TITLE>Submit answer message exchange diagram</title></HEAD>
+<BODY>
+
+<H1>Submit answer message exchange diagram</H1>
+<IMG SRC="submit_answer.png"/>
+<DL>
+<DT>HTTP request<DD>
+<CODE>http://cdoku.seng.uvic.ca:8080/codeAct/ca_controller/quiz.html?but=Check+answer&$y0=1&currqn=1</CODE>
+
+<DT><CODE>quiz()</CODE><DD>
+invoke <CODE>quiz()</CODE> in 
+<CODE>controllers/ca_controller.py<CODE>
+
+<DT><CODE>generate_html()<DD>
+invoke <CODE>generate_html()</CODE> in 
+<CODE>views/ca_controller/ca_question_html.py</CODE>
+
+<DT>question HTML code<DD>
+question presentation in HTML is returned by function
+<CODE>generate_html()</CODE>
+
+<DT><CODE>check_answer()<DD>
+invoke <CODE>check_answer()</CODE> in 
+<CODE>ca_question.py</CODE>
+
+<DT>page HTML code<DD>
+HTML code of the page is return by function <CODE>quiz()</CODE>
+
+<DT>HTTP response<DD>
+web2py server packs the page HTML code into a HTTP response and send to client
+</DL>
+
+</BODY>
+<HTML>

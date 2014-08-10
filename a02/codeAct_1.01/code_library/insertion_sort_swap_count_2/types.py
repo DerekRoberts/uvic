@@ -1,0 +1,2 @@
+game_type = 'Input/output'
+parameter_types = {'code': {'$i0': 'int', '$i1': 'int', '$i2': 'int'}, 'stdout': {'$y0': 'int'}}
