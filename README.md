@@ -1,7 +1,7 @@
 CSc115 - Introduction to Java pt.2
 ========
 
-Assignments and lab materials from Introduction to Computer Science (CSc115), Jan-Apr 2009, at the University of Victoria. It's all really basic Java. This is the part of my post-degree info dump and follows the Java-pt1 repository. :)
+Assignments and lab materials from Introduction to Computer Science (CSc115), Jan-Apr 2011, at the University of Victoria. It's all really basic Java. This is the part of my post-degree info dump and follows the Java-pt1 repository. :)
 
 a01 - Reading from files, writing to files, string basics and command line parameters (cmd.exe).  It's a basic contact manager.
 
