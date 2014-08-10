@@ -1,4 +1,4 @@
-﻿CSc110
+﻿CSc110 - Introduction to Java pt.1
 ======
 
 Assignments and lab materials from Introduction to Computer Science (CSc110), Sep-Dec 2008, at the University of Victoria.  It's all really basic Java.  This is the start of my post-degree info dump.  :)
