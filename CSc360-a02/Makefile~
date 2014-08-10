@@ -1,0 +1,5 @@
+a02: a02.c
+	gcc -Wall -pthread a02.c -o a02
+clean:
+	-rm -f a02
+
