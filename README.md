@@ -1,7 +1,7 @@
 CSc360 - Operating Systems
 ========
 
-Assignments from Operating Systems (CSc360) at the University of Victoria.  We learned about operating systems by building parts of them using C.  This was one of my favourite classes, because it finally felt like I had created something.  Not that the world needs another shell interpreter for Linux or my personal mangling of file allocations tables.  ;)
+Assignments from Operating Systems (CSc360), May-Aug 2012, at the University of Victoria.  We learned about operating systems by building parts of them using C.  This was one of my favourite classes, because it finally felt like I had created something.  Not that the world needs another shell interpreter for Linux or my personal mangling of file allocations tables.  ;)
 
 a01 - fork(), execvp(), getcwd(), chdir(), nohup, kill(), lots of other commands, background execution and process management.  It's a Realistic Shell Interpreter (RSI).
 
