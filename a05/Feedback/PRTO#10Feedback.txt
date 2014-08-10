@@ -1,0 +1,34 @@
+[Login Page]
+
+1- The large width of the GUI components is not necessary.
+2- The buttons "Quit" and "Login" are not separated by any white space (always use white spaces between GUI)
+3- You should use different window title for each window in your system.
+
+[Student main page]
+1- The two List Boxes could use some labels to identify their purpose.
+2- The List box on the top right side contains different things (user name, setting and log out) you should group similar things together.
+3- List box is an input component (the user name is not an input) here.
+4- Switching the between course changes the layout size and GUI components position.
+5- Switching the between the list of buttons or tabs (I am not sure what they are) on the left side changes the layout size and GUI components position.
+6- The JList (List box) under each item like "Syllabus" do not reflect its affordance directly it looks more like a text area.
+
+[Interactive test Window]
+1- Missing window title
+2- Large unnecessary white space (do not you think so?)
+3- The Text on "< Previous Question" and "Next Question>" in consistent.
+4- It is not clear what “Flag Procto" means?
+5- Buttons Length is inconsistent 
+
+[New Test Window]
+1- The buttons at the bottom should not be on the same horizontal line
+2- Why there is no "<" and ">" before and after Previous and Next buttons
+3- Why there is Finish and Save?
+4- When I type and essay question and press "Enter" key the text disappear, bad feedback
+5- When you interact with the buttons like finish and Cancel you should show confirmation messages.
+
+[Faculty main window]
+1- The same problems of the student main window
+2- When switching between courses the selectable items under syllabus become inactive
+
+ 
+
