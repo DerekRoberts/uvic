@@ -1,5 +1,4 @@
 [Login Page]
-
 1- The large width of the GUI components is not necessary.
 2- The buttons "Quit" and "Login" are not separated by any white space (always use white spaces between GUI)
 3- You should use different window title for each window in your system.
@@ -10,7 +9,7 @@
 3- List box is an input component (the user name is not an input) here.
 4- Switching the between course changes the layout size and GUI components position.
 5- Switching the between the list of buttons or tabs (I am not sure what they are) on the left side changes the layout size and GUI components position.
-6- The JList (List box) under each item like "Syllabus" do not reflect its affordance directly it looks more like a text area.
+6- The JList (List box) under each item like "Syllabus" do not reflect its affordance directly, it looks more like a text area.
 
 [Interactive test Window]
 1- Missing window title
