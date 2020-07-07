@@ -1,0 +1,37 @@
+SENG 310
+Assignment #3
+
+July 9, 2012
+
+Procto Learning System
+
+by Logan Bissonnette, Derek Roberts, and Fraser DeLisle
+
+
+
+
+Following are the 3 scenarios from Assignment #2 which this prototype supports:
+
+Case 1:
+Use scenario: Professor Tjeckma wants to send some additional resources to help students with a particularly tough Physics assignment question. 
+She opens the proctor system software; signs onto the system with her username and password, and at the top of the screen chooses ‘Physics 122’ from the class selection drop down menu. From the ‘Learning Materials’ section on the left she selects ‘New Resource’. The right side of the screen shows the dialogue for adding a resource. 
+She selects ‘Attach file’ and browses to the PDF she has on the local computer. She then types a brief description of the document to provide context. Wanting to make sure the entire class will know the document is there, she selects the check boxes for students, TAs and Instructors. Happy with this new resource, she chooses ‘Submit’. 
+The system adds the resource to the resources to the resource section on the students system, as well as adding an announcement to the main page, stating ‘New resources Available’. All students and TA’s are sent an email stating that new resources are available. The email contains the resource information, as well as the provided description.
+
+
+
+Case 2
+Use case: Professor Tjeckma wants to surprise her students with a pop quiz in her online distance education physics class. S
+he opens the online proctoring system software, and signs onto the system with her username and password. From the top of the program window, she selects the ‘Physics 122’ course from the class selection drop down menu. The left side of the screen displays class resources and has subcategories of learning materials, testing, assignments, etc. 
+The professor clicks the testing subsection and then chooses ‘Add Test’ and the right side of the screen shows a quiz editing pane. She types ‘Pop Quiz’ into the title field, and then chooses the quiz type ‘Multiple Choice’ from a drop down menu. In a sub-pane of the quiz editing pane, the professor enters the body of the question and presses a submit button. 
+Next, she enters multiple answers into the answer fields, followed by pressing another submit button. She repeats the last two steps for additional questions, until the quiz is complete.
+
+
+
+Case 3
+Use case: Student Skyler Sky has a quiz to take in his Electric Engineering 100 class. 
+Looking to get it completed early, he opens the online proctoring system software and signs onto the system with his username and password. He uses the class selection drop-down menu at the top of the screen to select the ‘Electrical Engineering 100: What Not to Touch’ class. The class resource area is displayed on the left side of the screen. 
+Next, he selects the ‘Testing’ item from the class resources and is shown a subsection containing a list of links to quizzes, some of which show check marks beside them because they have already been completed. After locating the desired quiz link in the list, Skyler clicks the link. 
+In response, in the main pane in the centre of the screen, the system displays information about the quiz such as quiz name, time limit, and a brief summary of the quiz. At the bottom of the main pane there is a ‘Start Test’ button. Skyler clicks the ‘Start Test’ button and the quiz information is replaced by the first page of questions. It is a multiple choice quiz, so there are radio buttons beside several different possible answers. 
+Skyler selects an answer for each question on the page, then clicks the ‘Next Page’ button at the bottom of the page. He repeats the last two steps until the ‘Next Page’ button is replaced by a ‘Finish’ button, which he clicks to exit the test. The quiz now appears checked off in the class resources sidebar since it has been completed.
+
