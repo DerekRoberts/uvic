@@ -1,0 +1,46 @@
+Cheng link => http://www.maverick-os.dk/FileSystemFormats/FAT12_FileSystem.html#SectorsPerFAT
+
+Use following command to view the contents of the disk2.IMA:
+
+xxd -g 1 disk2.IMA | less
+-a to replace cunks of zeros with *'s
+-s to start at a certain location in bytes (use sector*bytesPerSector)
+
+...
+
+
+Hi:
+
+The disk image file was created with a disk burner software. You probably have noticed that there might be an inconsistency between the "Volume label" field in the Boot sector and the volume label file in the root directory (They must match, i.e., whenever one is changed, the other must be changed accordingly). This inconsistency may be caused by a bug in the burner software.
+
+ 
+
+In Assignment 3, you should check both: the Volume label field in the Boot Sector and the volume label file in the root directory. If they are not the same, output the one recored in the volume lable file in the root directory.
+
+ 
+
+Kui
+
+
+...
+
+
+Hi:
+
+Some asked for the relevant info. for disk2.IMA, which is provided for your test purpose (disk2.IMA has been updated, please check the newest one):
+
+File system type (OS Name): FAT12 (MSDOS5.0)
+
+Total size of disk: 1440KB
+
+Free space: 1,389,568 Bytes
+
+Label: CSC360
+
+No. of FAT: 2
+
+Sectors per FAT: 9
+
+...
+
+

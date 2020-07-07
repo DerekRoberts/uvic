@@ -1,0 +1,3 @@
+gcc -Wall diskinfo.c -o diskinfo.o
+./diskinfo.o disk2.IMA
+rm -f diskinfo.o
