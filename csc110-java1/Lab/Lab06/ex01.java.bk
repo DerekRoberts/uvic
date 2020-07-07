@@ -1,0 +1,26 @@
+/** Comments
+*/
+
+import java.io.*;
+import java.util.*;
+
+public class ex01
+{
+	public static void main (String [] args)
+	{
+		File infile = new File("tuidata.txt");
+//		Scanner input = new Scanner(infile);
+		String provFind = "Ont.";		//Because everybody else will choose BC
+
+		int provTuition = findFor(provFind);
+		System.out.println("provTuition = " + provTuition);
+//		input.close();
+	}
+
+	public static int findFor (String provFind)
+	{
+
+		return 1234;
+	}
+
+}
