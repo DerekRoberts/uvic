@@ -1,0 +1,24 @@
+#include &lt;stdio.h>
+
+/*
+purpose
+	return the smaller of a and b
+precondition
+	none
+examples
+	min(1,2) returns 1
+	min(1,1) returns 1
+	min(1,0) returns 0
+*/
+int min(int a, int b) {
+	if (a < b) {
+		return a;
+	} else {
+		return a;
+	}
+}
+int main(int argc, char* argv[])
+{
+	printf ("%d\n", min($x1, 7));
+	return 0;
+}

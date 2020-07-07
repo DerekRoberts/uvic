@@ -1,0 +1,16 @@
+#include &lt;stdio.h>
+
+int min(int a, int b) {
+	if (a < b) { 
+		ca_highlight
+		return a;
+	} else { 
+		
+		return b;
+	}
+}
+int main(int argc, char* argv[])
+{
+	min($x1, $x2);
+	return 0;
+}

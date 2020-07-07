@@ -1,0 +1,14 @@
+#include &lt;stdio.h>
+
+int min(int a, int b) {
+	if (a < b) {
+		return a;
+	} else {
+		return b;
+	}
+}
+int main(int argc, char* argv[])
+{
+	printf("%d\n", min(4,9));
+	return 0;
+}

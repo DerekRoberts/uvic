@@ -1,0 +1,17 @@
+#include &lt;stdio.h>
+#include &lt;assert.h>
+
+int min(int a,int b) {
+	if (a < b) { 
+		ca_highlightassert(a > 5);
+		return a;
+	} else { 
+		
+		return b;
+	}
+}
+int main(int argc, char* argv[])
+{
+	min($x1,$x2);
+	return 0;
+}
